@@ -1,0 +1,114 @@
+.mb_0 {
+    margin-bottom: 0 !important;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+}
+
+.logo span {
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.register {
+    float: right !important;
+    display: -webkit-box !important;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.leftContainer {
+    width: 400px;
+    float: left;
+}
+
+.carousel {
+    width: 400px;
+    float: left;
+    padding-bottom: 25px;
+}
+
+.carousel img {
+    width: 400px;
+    height: 260px;
+}
+
+.tabs_news {
+    padding-left: 10px;
+    width: 460px;
+    float: left;
+}
+
+.ant-card-body {
+    padding: 15px !important;
+}
+
+.ant-card-head-title {
+    font-weight: bold !important;
+    color: #666 !important;
+}
+
+.topNewsList {
+    margin-bottom: 15px;
+}
+
+.topNewsList li {
+    line-height: 26px;
+    font-size: 14px;
+    width: 420px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.topNewsList a {
+    color: #666;
+}
+
+.imageblock {
+    float: left;
+}
+
+.custom-card {
+    padding: 5px;
+}
+
+.custom-card p {
+    color: #999;
+}
+
+
+/* use css to set position of modal */
+
+.vertical-center-modal {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.vertical-center-modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+}
