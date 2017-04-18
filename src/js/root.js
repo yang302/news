@@ -6,6 +6,7 @@ import PCUserCenter from './components/pc_usercenter';
 import PCNewsDetails from './components/pc_news_details';
 import MobileIndex from './components/mobile_index';
 import MobileUserCenter from './components/mobile_usercenter';
+import MobileNewsDetails from './components/mobile_news_details';
 import 'antd/dist/antd.css';
 import MediaQuery from 'react-responsive';
 
@@ -24,7 +25,7 @@ export default class Root extends React.Component {
           <Router history={hashHistory}>
             <Route path='/' component={MobileIndex}/>
             <Route path='/usercenter' component={MobileUserCenter}/>
-            <Route path='/details/:uniquekey' component={PCNewsDetails}/>
+            <Route path='/details/:uniquekey' component={MobileNewsDetails}/>
           </Router>
         </MediaQuery>
       </div>

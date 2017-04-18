@@ -102,6 +102,53 @@ section {
     display: inline-block;
 }
 
+.article {
+    text-align: justify;
+}
+
+#title {
+    margin: 0.16rem 0.16rem 0!important;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.article-title {
+    margin-bottom: 0.1rem;
+}
+
+#title .title {
+    font-size: 0.22rem;
+    line-height: 0.28rem;
+    color: #000;
+}
+
+.article-src-time {
+    font-size: 0.15rem;
+    color: #999;
+    padding-bottom: 0.1rem;
+}
+
+#content {
+    margin: 0.15rem 0.16rem 0.16rem;
+}
+
+.article-content .txt {
+    font-size: 0.14rem;
+}
+
+.article-content .section {
+    line-height: 0.28rem;
+    margin-bottom: 0.15rem;
+    margin-top: 0;
+}
+
+.ant-card {
+    margin-top: 5px !important;
+}
+
+.ant-form-horizontal {
+    padding: 0.1rem;
+}
+
 .backTop {
     bottom: 0.3rem !important;
     right: 0.4rem !important;
